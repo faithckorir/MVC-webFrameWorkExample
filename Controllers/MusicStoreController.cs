@@ -13,10 +13,9 @@ namespace WebApplication4.Controllers
         {
             return View();
         }
-        public string Welcome()
+        public string ShowMusic(string MusicTitle)
         {
-
-            return "Hello, this is welcome action message";
+            return "You selected " + MusicTitle + " Music";
         }
     }
 }
